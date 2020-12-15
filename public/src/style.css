@@ -2,6 +2,12 @@ body {
      margin: 0;
      box-sizing: border-box; 
 } 
+.nbPhone{
+    display: none;
+}
+#hamburgerNb{
+    display: none;
+}
 .row1{
     background-color:#2f3c43;
     padding-top: 4px;
@@ -118,7 +124,7 @@ body {
 }
 .row2 .headerLogo {
     padding: 2%;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 .row2 .nb {
     display: inline;
@@ -167,16 +173,21 @@ body {
     font-size: 40px;
     text-align: center;
 }
-.textFeature h1{
-   width: 50vh;
+.textFeature {
+   width: 60vh;
 }
 .rowFeatures{
-    display: flex;
+    display: block;
     overflow: hidden;
+    width: 100%;
+    margin-left: 5%;
+    max-width: 95%;
+    margin-bottom: 20px;
 }
 .features{
-    display: flex;
-    width: 33%;
+    display: block;
+    float: left;
+    width: calc(100% / 3);
 }
 .iconFeature i{
     margin-top: 10px;
@@ -189,3 +200,407 @@ body {
     font-size: 1.38rem;
 }
 
+@media only screen and (max-width: 1100px) {
+    .row1{
+        display: flex;
+    }
+    .row2{
+        background-color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        display: flex;
+    }
+    .row1 .info{
+        width: 50%;
+    }
+    .row1 .cart{
+        width: 30%;
+        margin-left: 10%;
+    }
+    #timeHeader{
+        display: none;
+    }
+    .row1 .cart ul{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .row1 .info ul li{
+        padding: 10px;
+        color: white;
+    }
+    .row1 .cart ul li{
+        padding: 10px;
+        color: white;
+    }
+    .row2 .headerLogo img{
+        width: 60%;
+        padding-left: 10px;
+    }
+    .row2 .headerLogo {
+        padding: 2%;
+        margin-right: 0%;
+    }
+    .row2 .nb {
+        padding-top: 1px;
+    }
+    .row2 .nb ul{
+        padding: 6px;
+        color: black;
+    }
+    .row2 .nb ul li{
+        padding: 6px;
+        padding-right: 40%;
+        color: black;
+    }
+    .row2 .nb ul li {
+        margin-left: none;
+        margin-right: none;
+    }
+    .titleFeatures p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature{
+       width: 350px;
+    }
+    .rowFeatures{
+        overflow: hidden;
+        margin-left: 5%;
+    }
+    .features{
+        width: calc(100% / 2);
+    }
+    .iconFeature i{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #fff;
+        font-size: 1.38rem;
+    }
+  }
+  @media only screen and (max-width: 940px) {
+    .row1{
+        display: flex;
+    }
+    .row2{
+        background-color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        display: flex;
+    }
+    .row1 .info{
+        width: 50%;
+    }
+    .row1 .cart{
+        width: 30%;
+        margin-left: 10%;
+    }
+    #timeHeader{
+        display: none;
+    }
+    .row1 .cart ul{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .row1 .info ul li{
+        padding: 4px;
+        color: white;
+    }
+    .row1 .cart ul li{
+        padding: 10px;
+        color: white;
+    }
+    .row2 .headerLogo img{
+        width: 60%;
+        padding-left: 10px;
+    }
+    .row2 .headerLogo {
+        padding: 2%;
+        margin-right: 0%;
+    }
+    .row2 .nb {
+        padding-top: 1px;
+    }
+    .row2 .nb ul{
+        padding: 4px;
+        color: black;
+    }
+    .row2 .nb ul li{
+        padding: 4px;
+        padding-right: 40%;
+        color: black;
+    }
+    .row2 .nb ul li {
+        margin-left: none;
+        margin-right: none;
+    }
+    .titleFeatures p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature h1{
+       width: 45vh;
+    }
+    .features{
+        width: calc(100% / 2);
+    }
+    .iconFeature i{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #fff;
+        font-size: 1.38rem;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .row1{
+        display: flex;
+    }
+    .row2{
+        background-color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        display: flex;
+    }
+    .row1 .info{
+        width: 50%;
+    }
+    .row1 .cart{
+        width: 30%;
+        margin-left: 10%;
+    }
+    #timeHeader{
+        display: none;
+    }
+    .row1 .cart ul{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .row1 .info ul li{
+        display: inline;
+        padding: 4px;
+        color: white;
+    }
+    .row1 .cart ul li{
+        display: inline;
+        padding: 10px;
+        color: white;
+    }
+    .row2 .headerLogo img{
+        width: 60%;
+        padding-left: 10px;
+    }
+    .row2 .headerLogo {
+        padding: 2%;
+        margin-right: 0%;
+    }
+    .row2 .nb {
+        display: none;
+    }
+    .row2 .nb ul{
+        display: none;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: black;
+    }
+    .row2 .nb ul li{
+        display: none;
+        padding: 4px;
+        padding-right: 30%;
+        color: black;
+    }
+    #nbCourses{
+        padding-right: 0%;
+    }
+    .row2 .nb ul li {
+        margin-left: none;
+        margin-right: none;
+    }
+    .titleFeatures p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature h1{
+       width: 45vh;
+    }
+    .rowFeatures{
+        display: block;
+        overflow: hidden;
+    }
+    .features{
+        display: block;
+        float: left;
+        width: calc(100% / 2);
+    }
+    .iconFeature i{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #fff;
+        font-size: 1.38rem;
+    }
+  }
+  @media only screen and (max-width: 870px) {
+    .row1{
+        display: flex;
+    }
+    .row2{
+        background-color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        display: flex;
+    }
+    .row1 .info{
+        width: 50%;
+    }
+    .row1 .cart{
+        width: 30%;
+        margin-left: 10%;
+    }
+    #timeHeader{
+        display: none;
+    }
+    .row1 .cart ul{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .row1 .info ul li{
+        padding: 4px;
+        color: white;
+    }
+    .row1 .cart ul li{
+        padding: 10px;
+        color: white;
+    }
+    .row2 .headerLogo img{
+        width: 60%;
+        padding-left: 10px;
+    }
+    .row2 .headerLogo {
+        padding: 2%;
+        margin-right: 0%;
+    }
+    .row2 .nb {
+        padding-top: 1px;
+    }
+    .row2 .nb ul{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: black;
+    }
+    .row2 .nb ul li{
+        padding: 4px;
+        padding-right: 30%;
+        color: black;
+    }
+    #nbCourses{
+        padding-right: 0%;
+    }
+    .row2 .nb ul li {
+        margin-left: none;
+        margin-right: none;
+    }
+    .titleFeatures p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature h1{
+       width: 45vh;
+    }
+    .features{
+        width: calc(100% / 2);
+    }
+    .iconFeature i{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #fff;
+        font-size: 1.38rem;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .row1{
+        display: flex;
+    }
+    .row2{
+        background-color: white;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        display: flex;
+    }
+    .row1 .info{
+        width: 40%;
+    }
+    .row1 .cart{
+        width: 50%;
+        margin-left: 10%;
+    }
+    #phoneHeader{
+        display: none;
+    }
+    #timeHeader{
+        display: none;
+    }
+    .row1 .cart ul{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .row1 .info ul li{
+        padding: 4px;
+        color: white;
+    }
+    .row1 .cart ul li{
+        padding: 10px;
+        color: white;
+    }
+    .row2 .headerLogo img{
+        width: 60%;
+        padding-left: 10px;
+    }
+    .row2 .headerLogo {
+        padding: 2%;
+        margin-right: 0%;
+    }
+    .row2 .nbPhone{
+        display: none;
+    }
+    #hamburgerNb{
+        display: block;
+        width: 10%;
+        height: auto;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+    .titleFeatures p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature h1{
+       width: 45vh;
+    }
+    .features{
+        width: calc(100% / 2);
+    }
+    .iconFeature i{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #fff;
+        font-size: 1.38rem;
+    }
+  }
