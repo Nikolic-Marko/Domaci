@@ -587,8 +587,12 @@ body {
         font-size: 40px;
         text-align: center;
     }
-    .textFeature h1{
-       width: 45vh;
+    .textFeature{
+       width: 140px;
+    }
+    .rowFeatures{
+        margin-left: 10%;
+        max-width: 90%;
     }
     .features{
         width: calc(100% / 2);
