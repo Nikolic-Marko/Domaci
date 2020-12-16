@@ -1,150 +1,158 @@
 body {
      margin: 0;
      box-sizing: border-box; 
-} 
-.nbPhone{
-    display: none;
 }
-#hamburgerNb{
-    display: none;
-}
+
 .row1{
     background-color:#2f3c43;
-    padding-top: 4px;
+    padding-top: 14px;
     padding-bottom: 4px;
     display: flex;
 }
-.row2{
-    background-color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    display: flex;
-}
-.row1 .info ul li{
+
+.row1 .info ul li {
     display: inline;
     padding: 10px;
     color: white;
 }
+
 .yellowCircle{
     background-color: #f0c24b;
     padding: 2px;
     border-radius: 25%;
 }
+
 .yellowCircleNb{
     background-color: #f0c24b;
     padding: 12px;
     border-radius: 50%;
 }
+
 #yellowIcon{
     background-color: #f0c24b;
-    padding: 12px;
+    padding: 46px;
+    font-size: 46px;
     border-radius: 50%;
 }
+
 .greenCircle{
     background-color: #b5d56a;
     padding: 2px;
     border-radius: 25%;
 }
+
 .greenCircleNb{
     background-color: #b5d56a;
     padding: 12px;
     border-radius: 50%;
 }
+
 #greenIcon{
     background-color: #b5d56a;
-    padding: 12px;
+    padding: 46px;
+    font-size: 46px;
     border-radius: 50%;
 }
+
 .redCircle{
     background-color: #5a0a0a;
     padding: 2px;
     border-radius: 25%;
 }
+
 .redCircleNb{
     background-color: #5a0a0a;
     padding: 12px;
     border-radius: 50%;
 }
+
 #redIcon{
     background-color: #5a0a0a;
-    padding: 12px;
+    padding: 46px;
+    font-size: 46px;
     border-radius: 50%;
 }
+
 .blueCircle{
     background-color: #84bed6;
     padding: 2px;
     border-radius: 25%;
 }
+
 .blueCircleNb{
     background-color: #84bed6;
     padding: 12px;
     border-radius: 50%;
 }
+
 #blueIcon{
     background-color: #84bed6;
-    padding: 12px;
+    padding: 46px;
+    font-size: 46px;
     border-radius: 50%;
 }
+
 .purpleCircleNb{
     background-color: #a597e7;
     padding: 12px;
     border-radius: 50%;
 }
+
 #purpleIcon{
     background-color: #a597e7;
-    padding: 12px;
+    padding: 46px;
+    font-size: 46px;
     border-radius: 50%;
 }
+
 .pinkCircle{
     background-color:#ea77ad;
     padding: 2px;
     border-radius: 25%;
 }
+
 .pinkCircleNb{
     background-color:#ea77ad;
     padding: 12px;
     border-radius: 50%;
 }
+
 #pinkIcon{
     background-color:#ea77ad;
-    padding: 12px;
+    padding: 46px;
+    font-size: 46px;
     border-radius: 50%;
 }
+
 .row1 .cart ul li{
     display: inline;
     padding: 10px;
     color: white;
 }
+
 .row1 .cart{
-    margin-left: 25%;
+    position: absolute;
+    float: left;
+    right: 5px;
 }
-.row2 .headerLogo img{
-    width: 60%;
+
+.headerLogo {
+    width: 50%;
+}
+
+.headerLogo img{
+    width: 80%;
     padding-left: 10px;
 }
-.row2 .headerLogo {
-    padding: 2%;
-    margin-right: 15%;
+
+#navbar-toggler {
+    background-color: #2f3c43;
 }
-.row2 .nb {
-    display: inline;
-    padding-top: 1px;
+
+#navbar-brand {
+    width: 50%;
 }
-.row2 .nb ul{
-    display: flex;
-    padding: 10px;
-    color: black;
-}
-.row2 .nb ul li{
-    display: inline;
-    padding: 10px;
-    padding-right: 40%;
-    color: black;
-}
-.row2 .nb ul li {
-    margin-left: auto;
-    margin-right: auto;
-}
+
 @keyframes slidy {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -155,33 +163,35 @@ body {
     75% { left: -300%; }
     95% { left: -300%; }
     100% { left: -400%; }
-    }
+}
     
-    body { margin: 0; } 
-    div#slider { overflow: hidden; }
-    div#slider figure img { width: 20%; float: left; }
-    div#slider figure { 
-      position: relative;
-      width: 500%;
-      margin: 0;
-      left: 0;
-      text-align: left;
-      font-size: 0;
-      animation: 30s slidy infinite; 
-    } 
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+}
+
 .titleFeatures p{
     font-size: 40px;
     text-align: center;
 }
 .textFeature {
-   width: 60vh;
+   width: 33vh;
 }
 .rowFeatures{
     display: block;
     overflow: hidden;
     width: 100%;
-    margin-left: 5%;
-    max-width: 95%;
+    margin-left: 10%;
+    max-width: 90%;
+    justify-content: center;
     margin-bottom: 20px;
 }
 .features{
@@ -191,8 +201,8 @@ body {
 }
 .iconFeature i{
     margin-top: 10px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     line-height: 50px;
     border-radius: 50%;
     text-align: center;
@@ -200,68 +210,43 @@ body {
     font-size: 1.38rem;
 }
 
+#navbar-nav {
+    padding-top: 20px;
+}
+
+#navbar-nav li{
+    padding-right: 15px;
+}
+
+.text-navbar {
+    color: black;
+    padding-top: 5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1100px) {
     .row1{
-        display: flex;
-    }
-    .row2{
-        background-color: white;
-        padding-top: 4px;
-        padding-bottom: 4px;
         display: flex;
     }
     .row1 .info{
         width: 50%;
     }
-    .row1 .cart{
-        width: 30%;
-        margin-left: 10%;
-    }
     #timeHeader{
         display: none;
-    }
-    .row1 .cart ul{
-        margin-left: auto;
-        margin-right: 0;
     }
     .row1 .info ul li{
         padding: 10px;
         color: white;
-    }
-    .row1 .cart ul li{
-        padding: 10px;
-        color: white;
-    }
-    .row2 .headerLogo img{
-        width: 60%;
-        padding-left: 10px;
-    }
-    .row2 .headerLogo {
-        padding: 2%;
-        margin-right: 0%;
-    }
-    .row2 .nb {
-        padding-top: 1px;
-    }
-    .row2 .nb ul{
-        padding: 6px;
-        color: black;
-    }
-    .row2 .nb ul li{
-        padding: 6px;
-        padding-right: 40%;
-        color: black;
-    }
-    .row2 .nb ul li {
-        margin-left: none;
-        margin-right: none;
     }
     .titleFeatures p{
         font-size: 40px;
         text-align: center;
     }
     .textFeature{
-       width: 350px;
+        width: 45vw;
     }
     .rowFeatures{
         overflow: hidden;
@@ -270,244 +255,59 @@ body {
     .features{
         width: calc(100% / 2);
     }
-    .iconFeature i{
-        margin-top: 10px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        border: 2px solid #fff;
-        font-size: 1.38rem;
-    }
   }
   @media only screen and (max-width: 940px) {
     .row1{
         display: flex;
     }
-    .row2{
-        background-color: white;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        display: flex;
-    }
     .row1 .info{
         width: 50%;
     }
     .row1 .cart{
-        width: 30%;
-        margin-left: 10%;
-    }
-    #timeHeader{
-        display: none;
-    }
-    .row1 .cart ul{
-        margin-left: auto;
-        margin-right: 0;
-    }
-    .row1 .info ul li{
-        padding: 4px;
-        color: white;
-    }
-    .row1 .cart ul li{
-        padding: 10px;
-        color: white;
-    }
-    .row2 .headerLogo img{
-        width: 60%;
-        padding-left: 10px;
-    }
-    .row2 .headerLogo {
-        padding: 2%;
-        margin-right: 0%;
-    }
-    .row2 .nb {
-        padding-top: 1px;
-    }
-    .row2 .nb ul{
-        padding: 4px;
-        color: black;
-    }
-    .row2 .nb ul li{
-        padding: 4px;
-        padding-right: 40%;
-        color: black;
-    }
-    .row2 .nb ul li {
-        margin-left: none;
-        margin-right: none;
-    }
-    .titleFeatures p{
-        font-size: 40px;
-        text-align: center;
-    }
-    .textFeature h1{
-       width: 45vh;
-    }
-    .features{
-        width: calc(100% / 2);
-    }
-    .iconFeature i{
-        margin-top: 10px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        border: 2px solid #fff;
-        font-size: 1.38rem;
-    }
-  }
-  @media only screen and (max-width: 770px) {
-    .row1{
-        display: flex;
-    }
-    .row2{
-        background-color: white;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        display: flex;
-    }
-    .row1 .info{
-        width: 50%;
-    }
-    .row1 .cart{
-        width: 30%;
-        margin-left: 10%;
-    }
-    #timeHeader{
-        display: none;
-    }
-    .row1 .cart ul{
-        margin-left: auto;
-        margin-right: 0;
-    }
-    .row1 .info ul li{
-        display: inline;
-        padding: 4px;
-        color: white;
-    }
-    .row1 .cart ul li{
-        display: inline;
-        padding: 10px;
-        color: white;
-    }
-    .row2 .headerLogo img{
-        width: 60%;
-        padding-left: 10px;
-    }
-    .row2 .headerLogo {
-        padding: 2%;
-        margin-right: 0%;
-    }
-    .row2 .nb {
-        display: none;
-    }
-    .row2 .nb ul{
-        display: none;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        color: black;
-    }
-    .row2 .nb ul li{
-        display: none;
-        padding: 4px;
-        padding-right: 30%;
-        color: black;
-    }
-    #nbCourses{
-        padding-right: 0%;
-    }
-    .row2 .nb ul li {
-        margin-left: none;
-        margin-right: none;
-    }
-    .titleFeatures p{
-        font-size: 40px;
-        text-align: center;
-    }
-    .textFeature h1{
-       width: 45vh;
-    }
-    .rowFeatures{
-        display: block;
-        overflow: hidden;
-    }
-    .features{
-        display: block;
+        position: absolute;
         float: left;
+        right: 20px;
+    }
+    #timeHeader{
+        display: none;
+    }
+    .row1 .info ul li{
+        padding: 4px;
+        color: white;
+    }
+    .titleFeatures p{
+        font-size: 40px;
+        text-align: center;
+    }
+    .textFeature{
+        width: 40vw;
+    }
+    .features{
         width: calc(100% / 2);
     }
-    .iconFeature i{
-        margin-top: 10px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        border: 2px solid #fff;
-        font-size: 1.38rem;
-    }
   }
+
   @media only screen and (max-width: 870px) {
     .row1{
         display: flex;
     }
-    .row2{
-        background-color: white;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        display: flex;
-    }
     .row1 .info{
         width: 50%;
     }
-    .row1 .cart{
-        width: 30%;
-        margin-left: 10%;
-    }
     #timeHeader{
         display: none;
-    }
-    .row1 .cart ul{
-        margin-left: auto;
-        margin-right: 0;
     }
     .row1 .info ul li{
         padding: 4px;
         color: white;
     }
-    .row1 .cart ul li{
-        padding: 10px;
-        color: white;
-    }
-    .row2 .headerLogo img{
-        width: 60%;
+    .headerLogo img{
+        width: 100%;
         padding-left: 10px;
     }
-    .row2 .headerLogo {
+    .headerLogo {
         padding: 2%;
         margin-right: 0%;
-    }
-    .row2 .nb {
-        padding-top: 1px;
-    }
-    .row2 .nb ul{
-        padding-top: 4px;
-        padding-bottom: 4px;
-        color: black;
-    }
-    .row2 .nb ul li{
-        padding: 4px;
-        padding-right: 30%;
-        color: black;
-    }
-    #nbCourses{
-        padding-right: 0%;
-    }
-    .row2 .nb ul li {
-        margin-left: none;
-        margin-right: none;
     }
     .titleFeatures p{
         font-size: 40px;
@@ -519,33 +319,18 @@ body {
     .features{
         width: calc(100% / 2);
     }
-    .iconFeature i{
-        margin-top: 10px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        border: 2px solid #fff;
-        font-size: 1.38rem;
-    }
   }
   @media only screen and (max-width: 770px) {
     .row1{
-        display: flex;
-    }
-    .row2{
-        background-color: white;
-        padding-top: 4px;
-        padding-bottom: 4px;
         display: flex;
     }
     .row1 .info{
         width: 40%;
     }
     .row1 .cart{
-        width: 50%;
-        margin-left: 10%;
+        position: absolute;
+        float: left;
+        right: 5px;
     }
     #phoneHeader{
         display: none;
@@ -553,42 +338,27 @@ body {
     #timeHeader{
         display: none;
     }
-    .row1 .cart ul{
-        margin-left: auto;
-        margin-right: 0;
-    }
     .row1 .info ul li{
-        padding: 4px;
+        padding: 0px;
         color: white;
     }
-    .row1 .cart ul li{
-        padding: 10px;
-        color: white;
-    }
-    .row2 .headerLogo img{
-        width: 60%;
+    .row1 .info ul{
         padding-left: 10px;
     }
-    .row2 .headerLogo {
-        padding: 2%;
-        margin-right: 0%;
+    .headerLogo {
+        width: 100%;
     }
-    .row2 .nbPhone{
-        display: none;
+    .headerLogo img{
+        width: 100%;
+        padding-left: 10px;
     }
-    #hamburgerNb{
-        display: block;
-        width: 10%;
-        height: auto;
-        margin-left: auto;
-        margin-right: 5%;
-    }
+
     .titleFeatures p{
         font-size: 40px;
         text-align: center;
     }
     .textFeature{
-       width: 140px;
+       width: 40vw;
     }
     .rowFeatures{
         margin-left: 10%;
@@ -597,14 +367,32 @@ body {
     .features{
         width: calc(100% / 2);
     }
-    .iconFeature i{
-        margin-top: 10px;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        border: 2px solid #fff;
-        font-size: 1.38rem;
+    .center-text {
+        text-align: left;
     }
-  }
+}
+
+@media only screen and (max-width: 540px) {
+    .features{
+        width: calc(100% / 1);
+        text-align: center;
+    }
+
+    .features h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .textFeature{
+        width: 100vw;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+
+     }
+     .rowFeatures{
+         margin-left: 0%;
+         max-width: 100%;
+     }
+
+}
